@@ -12,11 +12,11 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/AnaeyGuillen/lim20181-Track-FE-markdown-list/issues"
   },
-  "homepage": "https://github.com/AnaeyGuillen/lim20181-Track-FE-markdown-list#readme",
-  "bin": {
-    "say-hello": "./app.js"
-  }
+  "homepage": "https://github.com/AnaeyGuillen/lim20181-Track-FE-markdown-list#readme"
 }
