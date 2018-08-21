@@ -18,10 +18,7 @@ let searchRecursive = (dir, pattern)=>{
       results = results.concat(searchRecursive(dirInner, pattern));
     }
 
-    // if(){
-
-    // }
-
+  
     // Si el archivo encuentra el patrón enviarlo dentro de results
     if (stat.isFile() && dirInner.endsWith(pattern)) {
       results.push(dirInner);
